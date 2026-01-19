@@ -1,0 +1,1 @@
+{question} The options are {possible_answers}. Answer by choosing one option. Do not provide an explanation.
