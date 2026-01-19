@@ -23,11 +23,11 @@ Each feature is stored in JSONL format:
 {"feature_id": "1A", 
 "feature_name": "Consonant Inventories", 
 "domain": "Phonology", 
-"question": "How large is the consonant inventory in the <LANGUAGE> language?", 
+"question": "How large is the consonant inventory in the `<LANGUAGE>` language?", 
 "possible_answers": "Small; Moderately small; Average; Moderately large; Large", 
 "ground_truth": {"Abipón": "Moderately small", "Abkhaz": "Large", "Alabama": "Small", "Aché": "Small" /* additional languages omitted/}}
 
-<LANGUAGE> is replaced with a specific language name at inference time. 
+`<LANGUAGE>` is replaced with a specific language name at inference time. 
 
 ### Linguistic Feature Coverage
 | Category | Samples |
